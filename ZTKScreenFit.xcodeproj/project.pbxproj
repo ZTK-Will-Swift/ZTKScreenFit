@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEDD42A42A656DE700748BE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD42A32A656DE700748BE7 /* AppDelegate.swift */; };
+		BEDD42A62A656DE700748BE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD42A52A656DE700748BE7 /* SceneDelegate.swift */; };
+		BEDD42A82A656DE700748BE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD42A72A656DE700748BE7 /* ViewController.swift */; };
+		BEDD42AB2A656DE700748BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDD42A92A656DE700748BE7 /* Main.storyboard */; };
+		BEDD42AD2A656DE700748BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDD42AC2A656DE700748BE7 /* Assets.xcassets */; };
+		BEDD42B02A656DE700748BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDD42AE2A656DE700748BE7 /* LaunchScreen.storyboard */; };
+		BEDD42BB2A656DE700748BE7 /* ZTKScreenFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD42BA2A656DE700748BE7 /* ZTKScreenFitTests.swift */; };
+		BEDD42C52A656DE700748BE7 /* ZTKScreenFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD42C42A656DE700748BE7 /* ZTKScreenFitUITests.swift */; };
+		BEDD42C72A656DE700748BE7 /* ZTKScreenFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD42C62A656DE700748BE7 /* ZTKScreenFitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEDD42B72A656DE700748BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEDD42982A656DE700748BE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEDD429F2A656DE700748BE7;
+			remoteInfo = ZTKScreenFit;
+		};
+		BEDD42C12A656DE700748BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEDD42982A656DE700748BE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEDD429F2A656DE700748BE7;
+			remoteInfo = ZTKScreenFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEDD42A02A656DE700748BE7 /* ZTKScreenFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTKScreenFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDD42A32A656DE700748BE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEDD42A52A656DE700748BE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEDD42A72A656DE700748BE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEDD42AA2A656DE700748BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEDD42AC2A656DE700748BE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEDD42AF2A656DE700748BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEDD42B12A656DE700748BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDD42B62A656DE700748BE7 /* ZTKScreenFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTKScreenFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDD42BA2A656DE700748BE7 /* ZTKScreenFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTKScreenFitTests.swift; sourceTree = "<group>"; };
+		BEDD42C02A656DE700748BE7 /* ZTKScreenFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTKScreenFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDD42C42A656DE700748BE7 /* ZTKScreenFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTKScreenFitUITests.swift; sourceTree = "<group>"; };
+		BEDD42C62A656DE700748BE7 /* ZTKScreenFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTKScreenFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEDD429D2A656DE700748BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD42B32A656DE700748BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD42BD2A656DE700748BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEDD42972A656DE700748BE7 = {
+			isa = PBXGroup;
+			children = (
+				BEDD42A22A656DE700748BE7 /* ZTKScreenFit */,
+				BEDD42B92A656DE700748BE7 /* ZTKScreenFitTests */,
+				BEDD42C32A656DE700748BE7 /* ZTKScreenFitUITests */,
+				BEDD42A12A656DE700748BE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEDD42A12A656DE700748BE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD42A02A656DE700748BE7 /* ZTKScreenFit.app */,
+				BEDD42B62A656DE700748BE7 /* ZTKScreenFitTests.xctest */,
+				BEDD42C02A656DE700748BE7 /* ZTKScreenFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEDD42A22A656DE700748BE7 /* ZTKScreenFit */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD42A32A656DE700748BE7 /* AppDelegate.swift */,
+				BEDD42A52A656DE700748BE7 /* SceneDelegate.swift */,
+				BEDD42A72A656DE700748BE7 /* ViewController.swift */,
+				BEDD42A92A656DE700748BE7 /* Main.storyboard */,
+				BEDD42AC2A656DE700748BE7 /* Assets.xcassets */,
+				BEDD42AE2A656DE700748BE7 /* LaunchScreen.storyboard */,
+				BEDD42B12A656DE700748BE7 /* Info.plist */,
+			);
+			path = ZTKScreenFit;
+			sourceTree = "<group>";
+		};
+		BEDD42B92A656DE700748BE7 /* ZTKScreenFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD42BA2A656DE700748BE7 /* ZTKScreenFitTests.swift */,
+			);
+			path = ZTKScreenFitTests;
+			sourceTree = "<group>";
+		};
+		BEDD42C32A656DE700748BE7 /* ZTKScreenFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD42C42A656DE700748BE7 /* ZTKScreenFitUITests.swift */,
+				BEDD42C62A656DE700748BE7 /* ZTKScreenFitUITestsLaunchTests.swift */,
+			);
+			path = ZTKScreenFitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEDD429F2A656DE700748BE7 /* ZTKScreenFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDD42CA2A656DE700748BE7 /* Build configuration list for PBXNativeTarget "ZTKScreenFit" */;
+			buildPhases = (
+				BEDD429C2A656DE700748BE7 /* Sources */,
+				BEDD429D2A656DE700748BE7 /* Frameworks */,
+				BEDD429E2A656DE700748BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTKScreenFit;
+			productName = ZTKScreenFit;
+			productReference = BEDD42A02A656DE700748BE7 /* ZTKScreenFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEDD42B52A656DE700748BE7 /* ZTKScreenFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDD42CD2A656DE700748BE7 /* Build configuration list for PBXNativeTarget "ZTKScreenFitTests" */;
+			buildPhases = (
+				BEDD42B22A656DE700748BE7 /* Sources */,
+				BEDD42B32A656DE700748BE7 /* Frameworks */,
+				BEDD42B42A656DE700748BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEDD42B82A656DE700748BE7 /* PBXTargetDependency */,
+			);
+			name = ZTKScreenFitTests;
+			productName = ZTKScreenFitTests;
+			productReference = BEDD42B62A656DE700748BE7 /* ZTKScreenFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEDD42BF2A656DE700748BE7 /* ZTKScreenFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDD42D02A656DE700748BE7 /* Build configuration list for PBXNativeTarget "ZTKScreenFitUITests" */;
+			buildPhases = (
+				BEDD42BC2A656DE700748BE7 /* Sources */,
+				BEDD42BD2A656DE700748BE7 /* Frameworks */,
+				BEDD42BE2A656DE700748BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEDD42C22A656DE700748BE7 /* PBXTargetDependency */,
+			);
+			name = ZTKScreenFitUITests;
+			productName = ZTKScreenFitUITests;
+			productReference = BEDD42C02A656DE700748BE7 /* ZTKScreenFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEDD42982A656DE700748BE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BEDD429F2A656DE700748BE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BEDD42B52A656DE700748BE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BEDD429F2A656DE700748BE7;
+					};
+					BEDD42BF2A656DE700748BE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BEDD429F2A656DE700748BE7;
+					};
+				};
+			};
+			buildConfigurationList = BEDD429B2A656DE700748BE7 /* Build configuration list for PBXProject "ZTKScreenFit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEDD42972A656DE700748BE7;
+			productRefGroup = BEDD42A12A656DE700748BE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEDD429F2A656DE700748BE7 /* ZTKScreenFit */,
+				BEDD42B52A656DE700748BE7 /* ZTKScreenFitTests */,
+				BEDD42BF2A656DE700748BE7 /* ZTKScreenFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEDD429E2A656DE700748BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDD42B02A656DE700748BE7 /* LaunchScreen.storyboard in Resources */,
+				BEDD42AD2A656DE700748BE7 /* Assets.xcassets in Resources */,
+				BEDD42AB2A656DE700748BE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD42B42A656DE700748BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD42BE2A656DE700748BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEDD429C2A656DE700748BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDD42A82A656DE700748BE7 /* ViewController.swift in Sources */,
+				BEDD42A42A656DE700748BE7 /* AppDelegate.swift in Sources */,
+				BEDD42A62A656DE700748BE7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD42B22A656DE700748BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDD42BB2A656DE700748BE7 /* ZTKScreenFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD42BC2A656DE700748BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDD42C72A656DE700748BE7 /* ZTKScreenFitUITestsLaunchTests.swift in Sources */,
+				BEDD42C52A656DE700748BE7 /* ZTKScreenFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEDD42B82A656DE700748BE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEDD429F2A656DE700748BE7 /* ZTKScreenFit */;
+			targetProxy = BEDD42B72A656DE700748BE7 /* PBXContainerItemProxy */;
+		};
+		BEDD42C22A656DE700748BE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEDD429F2A656DE700748BE7 /* ZTKScreenFit */;
+			targetProxy = BEDD42C12A656DE700748BE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEDD42A92A656DE700748BE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDD42AA2A656DE700748BE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEDD42AE2A656DE700748BE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDD42AF2A656DE700748BE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEDD42C82A656DE700748BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEDD42C92A656DE700748BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEDD42CB2A656DE700748BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZTKScreenFit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.ZTKScreenFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEDD42CC2A656DE700748BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZTKScreenFit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.ZTKScreenFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEDD42CE2A656DE700748BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.ZTKScreenFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTKScreenFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZTKScreenFit";
+			};
+			name = Debug;
+		};
+		BEDD42CF2A656DE700748BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.ZTKScreenFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTKScreenFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZTKScreenFit";
+			};
+			name = Release;
+		};
+		BEDD42D12A656DE700748BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.ZTKScreenFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZTKScreenFit;
+			};
+			name = Debug;
+		};
+		BEDD42D22A656DE700748BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.ZTKScreenFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZTKScreenFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEDD429B2A656DE700748BE7 /* Build configuration list for PBXProject "ZTKScreenFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDD42C82A656DE700748BE7 /* Debug */,
+				BEDD42C92A656DE700748BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDD42CA2A656DE700748BE7 /* Build configuration list for PBXNativeTarget "ZTKScreenFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDD42CB2A656DE700748BE7 /* Debug */,
+				BEDD42CC2A656DE700748BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDD42CD2A656DE700748BE7 /* Build configuration list for PBXNativeTarget "ZTKScreenFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDD42CE2A656DE700748BE7 /* Debug */,
+				BEDD42CF2A656DE700748BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDD42D02A656DE700748BE7 /* Build configuration list for PBXNativeTarget "ZTKScreenFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDD42D12A656DE700748BE7 /* Debug */,
+				BEDD42D22A656DE700748BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEDD42982A656DE700748BE7 /* Project object */;
+}
