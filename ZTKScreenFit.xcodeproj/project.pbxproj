@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEC7BCD42A658E8800D70EEA /* ZTKScreenFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7BCD32A658E8800D70EEA /* ZTKScreenFit.swift */; };
 		BEDD42A42A656DE700748BE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD42A32A656DE700748BE7 /* AppDelegate.swift */; };
 		BEDD42A62A656DE700748BE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD42A52A656DE700748BE7 /* SceneDelegate.swift */; };
 		BEDD42A82A656DE700748BE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD42A72A656DE700748BE7 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BEC7BCD32A658E8800D70EEA /* ZTKScreenFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTKScreenFit.swift; sourceTree = "<group>"; };
 		BEDD42A02A656DE700748BE7 /* ZTKScreenFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTKScreenFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDD42A32A656DE700748BE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEDD42A52A656DE700748BE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEC7BCD22A658E4100D70EEA /* ScreenFit */ = {
+			isa = PBXGroup;
+			children = (
+				BEC7BCD32A658E8800D70EEA /* ZTKScreenFit.swift */,
+			);
+			path = ScreenFit;
+			sourceTree = "<group>";
+		};
 		BEDD42972A656DE700748BE7 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		BEDD42A22A656DE700748BE7 /* ZTKScreenFit */ = {
 			isa = PBXGroup;
 			children = (
+				BEC7BCD22A658E4100D70EEA /* ScreenFit */,
 				BEDD42A32A656DE700748BE7 /* AppDelegate.swift */,
 				BEDD42A52A656DE700748BE7 /* SceneDelegate.swift */,
 				BEDD42A72A656DE700748BE7 /* ViewController.swift */,
@@ -190,6 +201,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = ZTK;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
@@ -259,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEDD42A82A656DE700748BE7 /* ViewController.swift in Sources */,
+				BEC7BCD42A658E8800D70EEA /* ZTKScreenFit.swift in Sources */,
 				BEDD42A42A656DE700748BE7 /* AppDelegate.swift in Sources */,
 				BEDD42A62A656DE700748BE7 /* SceneDelegate.swift in Sources */,
 			);

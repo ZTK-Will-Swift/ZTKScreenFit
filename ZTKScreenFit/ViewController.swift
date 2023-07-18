@@ -9,9 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var showViewWidth: NSLayoutConstraint!
+    @IBOutlet weak var showView: UIView!
+    @IBOutlet weak var widthLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        showViewWidth.constant = 300.pt
+        widthLabel.text = "\(300.pt)"
     }
 
 
